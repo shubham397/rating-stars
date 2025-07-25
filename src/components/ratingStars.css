@@ -1,0 +1,23 @@
+.rating-stars {
+  display: flex;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.star {
+  transition: transform 0.2s ease;
+  opacity: 0.4;
+}
+
+.star.active {
+  opacity: 1;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.heading {
+  display: flex;
+}
